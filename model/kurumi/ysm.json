@@ -1,0 +1,78 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "福贺久留美 / Fukuga Kurumi",
+    "tips": "依照设定立绘重制了短发、常态脸、服装、鞋与纹理。\n设定集完整10表情 / 10动作，另含游戏基础动作。\n轮盘内分别选择表情与动作分类；需要移动时保留轮盘动画可开启锁定（默认 Alt+L）。\n作者：久留美模型项目（AI辅助制作）。\n原角色版权归原权利人；同人模型仅限非商业使用。",
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "desc": "沿用交接项目的署名-非商业性使用-相同方式共享4.0条款；仅适用于本项目原创模型、贴图和动画，不代表获得原角色授权。保留许可与来源，可编辑、修改及非商业再分发。"
+    },
+    "authors": [
+      {
+        "name": "久留美模型项目",
+        "role": "设定整理 / 模型 / 像素贴图 / 动画",
+        "comment": "依据委托方提供的设定与色板，AI辅助制作。"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "default_texture": "kurumi",
+    "preview_animation": "idle",
+    "free": true,
+    "extra_animation": {
+      "#expressions": "表情 · 10种",
+      "#poses": "动作 · 10种"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "expressions",
+        "extra_animation": {
+          "expr_default": "默认",
+          "expr_curious": "好奇",
+          "expr_excited": "兴奋",
+          "expr_greedy": "贪婪",
+          "expr_tense": "紧绷",
+          "expr_shocked": "震惊",
+          "expr_empty": "空洞",
+          "expr_crying": "痛哭",
+          "expr_manic": "癫狂",
+          "expr_dark": "黑化",
+          "#return": "返回"
+        }
+      },
+      {
+        "id": "poses",
+        "extra_animation": {
+          "pose_stand": "站立",
+          "pose_walk": "行走",
+          "pose_run": "奔跑",
+          "pose_crouch": "蹲下",
+          "pose_market": "盯盘",
+          "pose_pray": "祈祷",
+          "pose_cheer": "欢呼跳跃",
+          "pose_recoil": "惊吓后退",
+          "pose_breakdown": "抱头崩溃",
+          "pose_kneel": "爆仓跪地",
+          "#return": "返回"
+        }
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "texture": [
+        "textures/kurumi.png"
+      ],
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      }
+    }
+  }
+}
