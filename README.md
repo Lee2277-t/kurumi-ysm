@@ -33,6 +33,20 @@
 
 ---
 
+## 下载
+
+| 方式 | 地址 |
+|---|---|
+| **GitHub Release**（推荐） | https://github.com/Lee2277-t/kurumi-ysm/releases/latest |
+| **夸克网盘** | https://pan.quark.cn/s/82560f85b0fd　提取码 `9KET` |
+
+下载后解压得到 `kurumi` 文件夹，直接进下一步。
+
+> 只玩不折腾的话下 Release 里的 `kurumi-v1.0.0.zip` 就行。
+> 想自己改模型的话，clone 这个仓库，源码在 `model/kurumi/`。
+
+---
+
 ## 安装
 
 ### 1. 前置
